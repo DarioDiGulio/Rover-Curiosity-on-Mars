@@ -1,0 +1,17 @@
+@import "../theme.scss";
+
+.section {
+  background-color: $backgroundLayoutSections;
+  width: 100%;
+  margin: 0;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.title {
+  color: $colorTextTitle;
+  font-size: 2rem;
+}

@@ -1,0 +1,20 @@
+#slider {
+  height: 84vh;
+  display: grid;
+  grid-template-columns: 0.02fr 1fr 0.02fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+}
+
+.sliderStep {
+  justify-self: center;
+}
+
+.nextStep{
+    height: 5vh;
+}
+
+.item{
+  text-align: center;
+  font-size: 1.5rem;
+}
