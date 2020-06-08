@@ -8,6 +8,7 @@ class SliderStep extends React.Component {
   };
 
   getPhoto(id) {
+    let photo;
     fetch(
       "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?sol=1000&api_key=DEMO_KEY"
     )
@@ -15,8 +16,9 @@ class SliderStep extends React.Component {
         return response.json();
       })
       .then(function (myJson) {
-        return myJson.photos[id];
+        photo = myJson.photos[id];
       });
+    return photo;
   }
 
   componentDidMount = () => {
@@ -29,10 +31,7 @@ class SliderStep extends React.Component {
   render() {
     return (
       <div>
-        <p className="item">Name: </p>
-        <p className="item">Mass: </p>
-        <p className="item">Length of day:</p>
-        <p className="item">Mean temperature: </p>
+        <img src={this.state.photo.img_src} />
       </div>
     );
   }
