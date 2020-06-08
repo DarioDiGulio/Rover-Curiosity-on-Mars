@@ -1,2 +1,2 @@
-# Rover-Curiosity-on-Mars
+# Rover Curiosity on Mars
 Un slider hecho con React
