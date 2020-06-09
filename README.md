@@ -1,7 +1,7 @@
 # Rover Curiosity on Mars
-Un slider hecho con React 'nativo'
+Un slider hecho con React sin librerías
 
-#To Run
+### To Run
 
 * Download [Node.js](https://nodejs.org/es/ "Node.js")
 * Download this project
