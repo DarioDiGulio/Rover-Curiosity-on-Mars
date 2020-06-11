@@ -1,8 +1,8 @@
-import React from "react";
+import React, { Component } from "react";
 import IconStep from "./IconStep";
 import SliderStep from "./SliderStep";
 
-class Slider extends React.Component {
+class Slider extends Component {
   state = {
     index: 0,
     children: this.props.children,
@@ -42,8 +42,8 @@ class Slider extends React.Component {
         <button onClick={this.prevStep}>
           <IconStep direction="left" />
         </button>
-        {this.state.children.map((photo, key) => {
-          return <SliderStep photo={photo} key={this.state.index} />;
+        {this.state.children.map((sliderStep, key) => {
+          return key === this.state.index && <SliderStep photo={sliderStep.props.photo} key={key} />;
         })}
         <button onClick={this.nextStep}>
           <IconStep direction="right" />
