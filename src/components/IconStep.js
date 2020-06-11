@@ -2,8 +2,7 @@ import React from "react";
 import arrowLeft from "../images/arrow-left.png";
 import arrowRight from "../images/arrow-right.png";
 
-export default function IconStep(props) {
-  const direction = props.direction;
+export default function IconStep({ direction }) {
   return (
     <img
       className="nextStep"

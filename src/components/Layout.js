@@ -1,17 +1,16 @@
 import React from "react";
 
-function Layout(props) {
-  const children = props.children;
+function Layout({children, title, footer}) {
   return (
-    <React.Fragment>
+    <>
       <div className="section">
-        <p className="title">{props.title}</p>
+        <p className="title">{title}</p>
       </div>
       {children}
       <div className="section">
-        <p className="title">{props.footer}</p>
+        <p className="title">{footer}</p>
       </div>
-    </React.Fragment>
+    </>
   );
 }
 
