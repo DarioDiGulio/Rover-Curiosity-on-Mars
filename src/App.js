@@ -1,7 +1,7 @@
 import React from "react";
 import Layout from "./components/Layout";
 import Slider from "./components/Slider";
-import SliderStep from "./components/SliderStep";
+import Image from "./components/Image";
 import "./styles/index.scss";
 import curiosity from "./images/curiosity.jpg";
 import mars from "./images/mars.jpeg";
@@ -9,6 +9,7 @@ import mars1 from "./images/mars1.jpg";
 import mars2 from "./images/mars2.jpg";
 import mars3 from "./images/mars3.jpg";
 import mars4 from "./images/mars4.jpg";
+import Alerter from "./components/Alerter";
 
 function App() {
   return (
@@ -17,12 +18,13 @@ function App() {
       footer="Dario Di Gulio - Technisys exercise"
     >
       <Slider>
-        <SliderStep photo={curiosity} />
-        <SliderStep photo={mars} />
-        <SliderStep photo={mars1} />
-        <SliderStep photo={mars2} />
-        <SliderStep photo={mars3} />
-        <SliderStep photo={mars4} />
+        <Image photo={curiosity} />
+        <Image photo={mars} />
+        <Image photo={mars1} />
+        <Image photo={mars2} />
+        <Image photo={mars3} />
+        <Image photo={mars4} />
+        <Alerter />
       </Slider>
     </Layout>
   );

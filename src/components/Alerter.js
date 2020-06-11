@@ -16,7 +16,7 @@ function Alerter() {
       }}
       className="alerter"
     >
-      Increase Count: {count}
+      Alerter Count: {count}
     </button>
   );
 }

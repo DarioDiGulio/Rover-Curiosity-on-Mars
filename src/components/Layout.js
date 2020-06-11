@@ -1,5 +1,4 @@
 import React from "react";
-import Alerter from "./Alerter";
 
 function Layout({ children, title, footer }) {
   return (
@@ -10,7 +9,6 @@ function Layout({ children, title, footer }) {
       {children}
       <div className="section">
         <p className="title">{footer}</p>
-        <Alerter />
       </div>
     </>
   );
