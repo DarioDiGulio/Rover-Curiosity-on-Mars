@@ -1,9 +1,5 @@
 import React from "react";
 
-class SliderStep extends React.Component {
-  render() {
-    return <img className="content-img" src={this.props.photo} alt=""/>;
-  }
+export default function SliderStep({photo}) {
+    return <img className="content-img" src={photo} alt=""/>;
 }
-
-export default SliderStep;
