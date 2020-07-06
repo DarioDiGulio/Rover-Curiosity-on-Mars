@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/Rover-Curiosity-on-Mars/static/css/main.bc08dd2e.chunk.css",
+    "main.js": "/Rover-Curiosity-on-Mars/static/js/main.c1b338bc.chunk.js",
+    "main.js.map": "/Rover-Curiosity-on-Mars/static/js/main.c1b338bc.chunk.js.map",
+    "runtime-main.js": "/Rover-Curiosity-on-Mars/static/js/runtime-main.77058d45.js",
+    "runtime-main.js.map": "/Rover-Curiosity-on-Mars/static/js/runtime-main.77058d45.js.map",
+    "static/js/2.d8346981.chunk.js": "/Rover-Curiosity-on-Mars/static/js/2.d8346981.chunk.js",
+    "static/js/2.d8346981.chunk.js.map": "/Rover-Curiosity-on-Mars/static/js/2.d8346981.chunk.js.map",
+    "index.html": "/Rover-Curiosity-on-Mars/index.html",
+    "precache-manifest.1286c437ba5059323dd6e10a17af6878.js": "/Rover-Curiosity-on-Mars/precache-manifest.1286c437ba5059323dd6e10a17af6878.js",
+    "service-worker.js": "/Rover-Curiosity-on-Mars/service-worker.js",
+    "static/css/main.bc08dd2e.chunk.css.map": "/Rover-Curiosity-on-Mars/static/css/main.bc08dd2e.chunk.css.map",
+    "static/js/2.d8346981.chunk.js.LICENSE.txt": "/Rover-Curiosity-on-Mars/static/js/2.d8346981.chunk.js.LICENSE.txt",
+    "static/media/curiosity.jpg": "/Rover-Curiosity-on-Mars/static/media/curiosity.fb9afd32.jpg",
+    "static/media/mars.jpeg": "/Rover-Curiosity-on-Mars/static/media/mars.eb9438eb.jpeg",
+    "static/media/mars1.jpg": "/Rover-Curiosity-on-Mars/static/media/mars1.f32e402d.jpg",
+    "static/media/mars2.jpg": "/Rover-Curiosity-on-Mars/static/media/mars2.c6986be1.jpg",
+    "static/media/mars3.jpg": "/Rover-Curiosity-on-Mars/static/media/mars3.d818d614.jpg",
+    "static/media/mars4.jpg": "/Rover-Curiosity-on-Mars/static/media/mars4.cab24567.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.77058d45.js",
+    "static/js/2.d8346981.chunk.js",
+    "static/css/main.bc08dd2e.chunk.css",
+    "static/js/main.c1b338bc.chunk.js"
+  ]
+}
