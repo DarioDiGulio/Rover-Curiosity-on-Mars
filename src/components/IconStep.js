@@ -7,7 +7,7 @@ export default function IconStep({ direction }) {
     <img
       className="nextStep"
       src={direction === "left" ? arrowLeft : arrowRight}
-      alt="Next Step"
+      alt={direction === "left" ? "Prev step" : "Next step"}
     />
   );
 }

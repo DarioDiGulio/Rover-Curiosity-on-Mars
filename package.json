@@ -1,5 +1,5 @@
 {
-  "homepage": "https://DarioDiGulio.github.io/Rover-Curiosity-on-Mars",
+  "homepage": "https://dariodigulio.github.io/Rover-Curiosity-on-Mars/",
   "name": "slider-react",
   "version": "0.1.0",
   "private": true,
@@ -10,7 +10,7 @@
     "node-sass": "^4.14.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "^4.0.1"
   },
   "scripts": {
     "start": "react-scripts start",

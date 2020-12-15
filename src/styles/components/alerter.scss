@@ -1,11 +1,13 @@
 .alerter {
   background-color: black;
   color: white;
-  border-radius: 5rem;
+  border-radius: 10px;
   margin: 1rem;
   height: 25%;
   font-size: large;
-  border-color: black;
+  border: none;
+  outline: none;
+  cursor: pointer;
 }
 
 .alerter:checked {

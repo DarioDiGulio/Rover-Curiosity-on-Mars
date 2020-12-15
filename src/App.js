@@ -15,7 +15,7 @@ function App() {
   return (
     <Layout
       title="Images taken by the Rover Curiosity on Mars"
-      footer="Dario Di Gulio - Technisys exercise"
+      footer="Dario Di Gulio"
     >
       <Slider>
         <Image photo={curiosity} />
